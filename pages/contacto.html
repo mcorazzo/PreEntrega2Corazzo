@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/887a835504.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Veterinaria Mascotas</title>
+  </head>
+
+  <body>
+    <main class="container-fluid">
+      <div class="row sticky-top">
+        <!-- LOGO -->
+        <div class="fdn_logo logo d-flex justify-content-center col-12">
+          <img
+            src="../assets/img/logo.png"
+            alt="Logo de Veterinaria Mascotas"
+          />
+        </div>
+        <!-- MENU -->
+        <nav class="fdn_ul navbar navbar-expand-md">
+          <div class="container">
+            <button
+              class="navbar-toggler w-100 fs-3 fw-bold text-white bg-warning border border-2 border-danger"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#menu"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="flase"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="justify-content-center z-1 col-12 navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-center" href="../index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center" href="../pages/nosotros.html"
+                    >Nosotros</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center" href="../pages/galeria.html "
+                    >Galeria</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center" href="../pages/tienda.html"
+                    >Tienda</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-center active"
+                    aria-current="page"
+                    href="#"
+                    >Contacto</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <section>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7783.487154663545!2d-56.178509510873084!3d-34.89256378587917!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f803bdb8919a1%3A0x2e117452a699c880!2sPalacio%20Legislativo!5e0!3m2!1ses-419!2suy!4v1675381018411!5m2!1ses-419!2suy"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <div class="container-fluid form-gral p-5">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="well well-sm">
+              <form
+                class="form-horizontal"
+                action="#"
+                method="post"
+                enctype="text/plain"
+              >
+                <fieldset>
+                  <h2 class="text-center header title_service p-5 fw-bold">
+                    Contactanos
+                  </h2>
+
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"></span>
+                    <div class="col-md-12 p-2">
+                      <input
+                        id="fname"
+                        name="name"
+                        type="text"
+                        placeholder="Nombre"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"></span>
+                    <div class="col-md-12 p-2">
+                      <input
+                        id="email"
+                        name="email"
+                        type="text"
+                        placeholder="Email"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"></span>
+                    <div class="col-md-12 p-2">
+                      <input
+                        id="phone"
+                        name="phone"
+                        type="text"
+                        placeholder="Celular"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"></span>
+                    <div class="col-md-12 p-2">
+                      <input
+                        id="lname"
+                        name="name"
+                        type="text"
+                        placeholder="Asunto"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"></span>
+                    <div class="col-md-12 p-2">
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        placeholder="Ingrese su mensaje aqui."
+                        rows="7"
+                      ></textarea>
+                    </div>
+                  </div>
+
+                  <div class="form-group py-5">
+                    <div class="d-grid">
+                      <button type="submit" class="btn btn-warning" type="button"><b>Enviar Mensaje</b></button>                      
+                    </div>
+
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="col-6 bg-body imagen">
+            <img class="w-100" src="../assets/img/contacto.jpg" alt="Imagen de Contacto">
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="row footer-principal mt-2">
+        <div class="text-start col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <div class="footer-left">
+            <img
+              class="w-50"
+              src="../assets/img/logo.png"
+              alt="Logo de Veterinaria Mascotas"
+            />
+            <p class="footer-links">
+              <a href="../index.html" class="link-1">Inicio</a>
+              <a href="../pages/nosotros.html">Nosotros</a>
+              <a href="../pages/galeria.html">Galeria</a>
+              <a href="../pages/tienda.html">Tienda</a>
+              <a href="#">Contacto</a>
+            </p>
+            <p class="footer-company-name">Copyright © 2023</p>
+          </div>
+        </div>
+        <div class="text-start col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <div class="footer-center">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>0000 Calle</span> Montevideo - Uruguay</p>
+            </div>
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+598 0000 0000</p>
+            </div>
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p>
+                <a href="mailto:support@company.com">mail@company.com.uy</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-start col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <div class="footer-right">
+            <p class="footer-company-about">
+              <span>Nosotros</span>
+              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
+              euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+            <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
